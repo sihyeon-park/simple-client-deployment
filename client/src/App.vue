@@ -2,6 +2,7 @@
   <main>
     <img alt="Vue logo" src="./assets/logo.png" />
     <h1>Welcome to test page for Simple Client Deployment</h1>
+    <p>This is Vercel Dev</p>
   </main>
 </template>
 
