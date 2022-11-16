@@ -1,3 +1,5 @@
 FROM nginx:alpine
 
-COPY /client/public /usr/share/nginx/html
+RUN cd /client && yarn build
+
+COPY /client/dist /usr/share/nginx/html
